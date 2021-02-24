@@ -87,7 +87,20 @@ var display = (function() {
           element: {
             node: "p"
           },
-          contentItems: [{
+          contentItems: [
+          {
+            path: "basics.character.swords",
+            prefix: "Swords",
+          }, {
+            path: "basics.character.pentacles",
+            prefix: "Pentacles",
+          }, {
+            path: "basics.character.cups",
+            prefix: "Cups",
+          }, {
+            path: "basics.character.wands",
+            prefix: "Wands",
+          }, {
             path: "basics.senses.racial",
             prefix: "Racial Senses",
           }, {
